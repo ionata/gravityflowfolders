@@ -108,8 +108,24 @@ if ( class_exists( 'Gravity_Flow_Step' ) ) {
 
 			foreach ( $folders as $folder ) {
 				$setting_key = $folder->get_meta_key();
-				if ( $this->{$setting_key} ) {
-					$entry_id = $this->get_entry_id();
+				$setting_key_match = $this->{$setting_key};
+				$entry_id = $this->get_entry_id();
+
+				/**
+				 * Allows determination of whether entry should be added to a folder to be customized
+				 *
+				 * @since 1.3
+				 *
+				 * @param bool              $setting_key_match  Does the folder match current step settings
+				 * @param array             $folder             The folder which created this entry.
+				 * @param int               $entry_id           The entry ID.
+				 * @param Gravity_Flow_Step $current_step       The current step for this entry.
+				 * 
+				 * @return bool
+				 */
+				$setting_key_match = apply_filters( 'gravityflowfolders_folder_match_add_step', $setting_key_match, $folder, $entry_id, $this );
+
+				if ( $setting_key_match ) {
 					$folder->add_entry( $entry_id );
 					$label = $folder->get_name();
 					$note  = sprintf( esc_html__( 'Added to folder: %s', 'gravityflow' ), $label );
