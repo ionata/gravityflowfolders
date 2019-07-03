@@ -27,7 +27,17 @@ class Gravity_Flow_Folders_Page {
 		}
 
 		if ( ! empty( $args['folder'] ) ) {
-			$folder_id = $args['folder'];
+			/**
+			 * Purpose of the filter
+			 *
+			 * @since 1.4
+			 *
+			 * @param string Folder name / ID from shortcode arguments
+			 * @param array  Shortcode arguments
+			 *
+			 * @return string
+			 */
+			$folder_id = apply_filters( 'gravityflowfolders_display_folder', $args['folder'], $args );
 
 			$folder = gravity_flow_folders()->get_folder( $folder_id, $user );
 			if ( $folder ) {
