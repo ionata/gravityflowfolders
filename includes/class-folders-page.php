@@ -33,9 +33,9 @@ class Gravity_Flow_Folders_Page {
 			 *
 			 * @since 1.4
 			 *
-			 * @param string $folder_id Folder name / ID from shortcode arguments
-			 * @param array  $args      Shortcode arguments
-			 * @param object $user      User to render folder entries for - specified by $args or wp_get_current_user
+			 * @param string  $folder_id Folder name / ID from shortcode arguments
+			 * @param array   $args      Shortcode arguments
+			 * @param WP_User $user      User to render folder entries for - specified by $args or wp_get_current_user
 			 *
 			 * @return string
 			 */
