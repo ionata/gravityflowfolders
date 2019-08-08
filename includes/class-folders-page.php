@@ -28,6 +28,18 @@ class Gravity_Flow_Folders_Page {
 
 		if ( ! empty( $args['folder'] ) ) {
 			$folder_id = $args['folder'];
+			/**
+			 * Allow customization of which folder is rendered
+			 *
+			 * @since 1.4
+			 *
+			 * @param string  $folder_id Folder name / ID from shortcode arguments
+			 * @param array   $args      Shortcode arguments
+			 * @param WP_User $user      User to render folder entries for - specified by $args or wp_get_current_user
+			 *
+			 * @return string
+			 */
+			$folder_id = apply_filters( 'gravityflowfolders_render_folder_id', $folder_id, $args, $user );
 
 			$folder = gravity_flow_folders()->get_folder( $folder_id, $user );
 			if ( $folder ) {
