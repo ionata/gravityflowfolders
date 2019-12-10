@@ -109,7 +109,7 @@ if ( class_exists( 'Gravity_Flow_Step' ) ) {
 
 			foreach ( $folders as $folder ) {
 				$setting_key = $folder->get_meta_key();
-				$setting_key_match = $this->{$setting_key};
+				$setting_key_match = $setting_key_match_original = $this->{$setting_key};
 				$entry_id = $this->get_entry_id();
 
 				/**
@@ -127,6 +127,9 @@ if ( class_exists( 'Gravity_Flow_Step' ) ) {
 				$setting_key_match = apply_filters( 'gravityflowfolders_folder_match_remove_step', $setting_key_match, $folder, $entry_id, $this );
 
 				if ( $setting_key_match ) {
+					if ( $setting_key_match !== $setting_key_match_original ) {
+						gravity_flow_folders()->log_debug( __METHOD__ . '(): folder to remote entry #' . $entry_id . ' from customized by gravityflowfolders_folder_match_remove_step.');
+					}
 					$entry_id = $this->get_entry_id();
 					$folder->remove_entry( $entry_id );
 					$label = $folder->get_name();
