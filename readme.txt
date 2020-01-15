@@ -2,7 +2,7 @@
 Contributors: stevehenty
 Tags: gravity forms, approvals, workflow
 Requires at least: 4.0
-Tested up to: 4.8.1
+Tested up to: 5.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ Group entries into custom lists.
 
 The Gravity Flow Folders Extension is an extension for Gravity Flow.
 
-Gravity Flow is a commerical Add-On for [Gravity Forms](https://gravityflow.io/gravityforms)
+Gravity Flow is a commercial Add-On for [Gravity Forms](https://gravityflow.io/gravityforms)
 
 Facebook: [Steven Henty](https://www.facebook.com/gravityflow.io)
 
@@ -43,6 +43,9 @@ The Gravity Flow Folders Extension will work with any license of [Gravity Flow](
 
 
 == ChangeLog ==
+
+= 1.3 =
+- Added support for the license key constant GRAVITY_FLOW_FOLDERS_LICENSE_KEY.
 
 = 1.2 =
 - Updated Members 2.0 integration to use human readable labels for the capabilities. Requires Gravity Flow 1.8.1 or greater.

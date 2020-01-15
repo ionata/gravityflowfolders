@@ -1,20 +1,21 @@
-# Copyright 2015-2017 Steven Henty.
+# Copyright 2015-2018 Steven Henty.
 # Translators:
 # FX Bénard <fxb@wp-translations.org>, 2017
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gravityflowfolders\n"
 "Report-Msgid-Bugs-To: https://www.gravityflow.io\n"
-"POT-Creation-Date: 2017-10-22 17:19:27+00:00\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2018-10-10 11:06:54+00:00\n"
+"PO-Revision-Date: 2016-12-04 16:17+0000\n"
 "Last-Translator: FX Bénard <fxb@wp-translations.org>, 2017\n"
 "Language-Team: French (France) (https://www.transifex.com/gravityflow/teams/50678/fr_FR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gravity Flow Build Script\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
 "X-Poedit-Basepath: ../\n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-Country: United States\n"
@@ -97,7 +98,7 @@ msgstr "Configuration"
 
 #: class-folders.php:263 class-folders.php:346 class-folders.php:377
 #: class-folders.php:379 class-folders.php:423 class-folders.php:531
-#: class-folders.php:875 includes/class-folders-detail.php:43
+#: class-folders.php:879 includes/class-folders-detail.php:43
 #: includes/class-step-folders-add.php:66
 #: includes/class-step-folders-add.php:76
 #: includes/class-step-folders-remove.php:65
@@ -105,36 +106,36 @@ msgstr "Configuration"
 msgid "Folders"
 msgstr "Dossiers"
 
-#: class-folders.php:747 includes/class-folders-detail.php:39
+#: class-folders.php:751 includes/class-folders-detail.php:39
 #: includes/class-folders-list.php:21
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: class-folders.php:751
+#: class-folders.php:755
 msgid "Roles"
 msgstr "Rôles"
 
-#: class-folders.php:793
+#: class-folders.php:797
 msgid "Add to folder: %s"
 msgstr "Ajouter au dossier : %s"
 
-#: class-folders.php:829
+#: class-folders.php:833
 msgid "Entries assigned to folder: %s."
 msgstr "Entrées assignées au dossier : %s."
 
-#: class-folders.php:878
+#: class-folders.php:882
 msgid "Add to folder"
 msgstr "Ajouter au dossier"
 
-#: class-folders.php:882
+#: class-folders.php:886
 msgid "Remove from folder"
 msgstr "Supprimer du dossier"
 
-#: class-folders.php:911
+#: class-folders.php:915
 msgid "Entry added to folder: %s"
 msgstr "Entrée ajoutée au dossier : %s"
 
-#: class-folders.php:915
+#: class-folders.php:919
 msgid "Entry removed from folder: %s"
 msgstr "Entrée supprimée du dossier : %s"
 

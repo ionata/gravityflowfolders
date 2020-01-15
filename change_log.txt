@@ -1,3 +1,4 @@
 - Added support for the license key constant
 - Added filter gravityflowfolders_folder_match_add_step to allow control of whether entry should be added to a folder
 - Added filter gravityflowfolders_folder_match_remove_step to allow control of whether entry should be removed from a folder
+- Added filter gravityflowfolders_display_folder to allow the folder shortcode argument to be customized.
