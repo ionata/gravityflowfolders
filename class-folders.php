@@ -457,6 +457,16 @@ if ( class_exists( 'GFForms' ) ) {
 
 			$folder_configs = $this->get_folder_settings();
 
+			/**
+			* Allow the list of folders to be customized.
+			*
+			* @since 1.3.1
+			*
+			* @param array              $folder_configs The set of folders and their respective configuration.
+			*
+			* @return array
+			*/
+
 			$folder_configs = apply_filters( 'gravityflowfolders_folders', $folder_configs );
 
 			$folders = array();
