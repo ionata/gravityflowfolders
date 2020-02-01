@@ -250,6 +250,7 @@ if ( class_exists( 'GFForms' ) ) {
 		 * Adds the fields for the app settings page.
 		 *
 		 * @since 1.0
+		 * @since 1.3.1 Add save_callback ot sanitize the value.
 		 *
 		 * @return array
 		 */
@@ -259,9 +260,10 @@ if ( class_exists( 'GFForms' ) ) {
 				'title'  => esc_html__( 'Configuration', 'gravityflowfolders' ),
 				'fields' => array(
 					array(
-						'name'  => 'folders',
-						'label' => esc_html__( 'Folders', 'gravityflowfolders' ),
-						'type'  => 'folders',
+						'name'          => 'folders',
+						'label'         => esc_html__( 'Folders', 'gravityflowfolders' ),
+						'type'          => 'folders',
+						'save_callback' => array( $this, 'save_callback_folders' ),
 					),
 				),
 			);
@@ -328,6 +330,51 @@ if ( class_exists( 'GFForms' ) ) {
 				<!-- placeholder for custom fields UI -->
 			</div>
 			<?php
+		}
+
+		/**
+		 * Save callback function for the folders field.
+		 *
+		 * @since 1.3.1
+         *
+		 * @param array $field         The field object.
+		 * @param array $field_setting The field setting.
+		 *
+		 * @return array
+		 */
+		public function save_callback_folders( $field, $field_setting ) {
+			if ( ! is_array( $field_setting ) ) {
+				return $field_setting;
+			}
+
+			foreach ( $field_setting as $key => $value ) {
+				$field_setting[ $key ]['name'] = sanitize_text_field( $value['name'] );
+			}
+
+			return $field_setting;
+		}
+
+		/**
+		 * Retrieves the setting for a specific field/input.
+		 *
+		 * @since 1.3.1
+		 *
+		 * @param string     $setting_name  The field or input name
+		 * @param string     $default_value Optional. The default value
+		 * @param bool|array $settings      Optional. THe settings array
+		 *
+		 * @return string|array
+		 */
+		public function get_setting( $setting_name, $default_value = '', $settings = false ) {
+			$setting = parent::get_setting( $setting_name, $default_value, $settings );
+
+			if ( $setting_name !== 'folders' ) {
+				return $setting;
+			}
+
+			$setting = $this->save_callback_folders( array(), $setting );
+
+			return $setting;
 		}
 
 		/**

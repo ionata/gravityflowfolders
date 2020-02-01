@@ -80,7 +80,7 @@ abstract class Gravity_Flow_Folder {
 	 * @since 1.0
 	 */
 	public function get_name() {
-		return $this->name;
+		return esc_html( $this->name );
 	}
 
 	/**
