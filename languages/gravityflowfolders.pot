@@ -1,13 +1,13 @@
-# Copyright 2015-2019 Steven Henty.
+# Copyright 2015-2020 Steven Henty.
 msgid ""
 msgstr ""
 "Project-Id-Version: gravityflowfolders\n"
 "Report-Msgid-Bugs-To: https://www.gravityflow.io\n"
-"POT-Creation-Date: 2019-03-02 17:33:00+00:00\n"
+"POT-Creation-Date: 2020-02-15 12:09:04+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Steven Henty <support@gravityflow.io>\n"
 "Language-Team: Steven Henty <support@gravityflow.io>\n"
 "Language: en_US\n"
@@ -91,13 +91,13 @@ msgstr ""
 msgid "Select Users"
 msgstr ""
 
-#: class-folders.php:259
+#: class-folders.php:260
 msgid "Configuration"
 msgstr ""
 
-#: class-folders.php:263 class-folders.php:346 class-folders.php:377
-#: class-folders.php:379 class-folders.php:423 class-folders.php:531
-#: class-folders.php:879 includes/class-folders-detail.php:43
+#: class-folders.php:264 class-folders.php:393 class-folders.php:424
+#: class-folders.php:426 class-folders.php:470 class-folders.php:588
+#: class-folders.php:936 includes/class-folders-detail.php:43
 #: includes/class-step-folders-add.php:66
 #: includes/class-step-folders-add.php:76
 #: includes/class-step-folders-remove.php:65
@@ -105,36 +105,36 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
-#: class-folders.php:751 includes/class-folders-detail.php:39
+#: class-folders.php:808 includes/class-folders-detail.php:39
 #: includes/class-folders-list.php:21
 msgid "Users"
 msgstr ""
 
-#: class-folders.php:755
+#: class-folders.php:812
 msgid "Roles"
 msgstr ""
 
-#: class-folders.php:797
+#: class-folders.php:854
 msgid "Add to folder: %s"
 msgstr ""
 
-#: class-folders.php:833
+#: class-folders.php:890
 msgid "Entries assigned to folder: %s."
 msgstr ""
 
-#: class-folders.php:882
+#: class-folders.php:939
 msgid "Add to folder"
 msgstr ""
 
-#: class-folders.php:886
+#: class-folders.php:943
 msgid "Remove from folder"
 msgstr ""
 
-#: class-folders.php:915
+#: class-folders.php:972
 msgid "Entry added to folder: %s"
 msgstr ""
 
-#: class-folders.php:919
+#: class-folders.php:976
 msgid "Entry removed from folder: %s"
 msgstr ""
 
@@ -146,11 +146,11 @@ msgstr ""
 msgid "You don't have permission to view this folder"
 msgstr ""
 
-#: includes/class-folders-page.php:37
+#: includes/class-folders-page.php:49
 msgid "Folder not found."
 msgstr ""
 
-#: includes/class-folders-page.php:45
+#: includes/class-folders-page.php:57
 msgid "You don't have any folders configured."
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "You don't have any folders set up."
 msgstr ""
 
-#: includes/class-step-folders-add.php:115
+#: includes/class-step-folders-add.php:135
 msgid "Added to folder: %s"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Remove from Folder"
 msgstr ""
 
-#: includes/class-step-folders-remove.php:116
+#: includes/class-step-folders-remove.php:136
 msgid "Removed from folder: %s"
 msgstr ""
 

@@ -44,6 +44,13 @@ The Gravity Flow Folders Extension will work with any license of [Gravity Flow](
 
 == ChangeLog ==
 
+= 1.4 =
+- Added security enhancements.
+- Added filter gravityflowfolders_folder_match_add_step to allow control of whether entry should be added to a folder
+- Added filter gravityflowfolders_folder_match_remove_step to allow control of whether entry should be removed from a folder
+- Added filter gravityflowfolders_display_folder to allow the folder shortcode argument to be customized.
+- Updated translations.
+
 = 1.3 =
 - Added support for the license key constant GRAVITY_FLOW_FOLDERS_LICENSE_KEY.
 
