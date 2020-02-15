@@ -3,10 +3,10 @@
 Plugin Name: Gravity Flow Folders
 Plugin URI: https://gravityflow.io
 Description: Folders Extension for Gravity Flow.
-Version: 1.4
+Version: 1.4.1-dev
 Author: Gravity Flow
 Author URI: https://gravityflow.io
-License: GPL-2.0+
+License: GPL-3.0+
 
 ------------------------------------------------------------------------
 Copyright 2015-2020 Steven Henty S.L.
@@ -25,7 +25,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define( 'GRAVITY_FLOW_FOLDERS_VERSION', '1.4' );
+define( 'GRAVITY_FLOW_FOLDERS_VERSION', '1.4.1-dev' );
 define( 'GRAVITY_FLOW_FOLDERS_EDD_ITEM_ID', 3923 );
 define( 'GRAVITY_FLOW_FOLDERS_EDD_ITEM_NAME', 'Folders' );
 
