@@ -485,7 +485,7 @@ var Repeater = function (_React$Component) {
 							_react2.default.createElement('i', { onClick: _this2._addItem.bind(_this2, index), className: 'gficon-add' }),
 							removeButton
 						),
-						_react2.default.createElement('br', { style: { clear: 'left' } })
+						_react2.default.createElement('br', { style: { clear: 'both' } })
 					);
 				});
 			}
