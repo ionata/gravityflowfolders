@@ -116,7 +116,7 @@ export default class Repeater extends React.Component {
 							{removeButton}
 						</div>
 
-						<br style={{clear: 'left'}} />
+						<br style={{clear: 'both'}} />
 					</div>
 				)
 			});
