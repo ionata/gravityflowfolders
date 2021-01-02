@@ -1,4 +1,4 @@
-# Copyright 2015-2019 Steven Henty.
+# Copyright 2015-2020 Steven Henty.
 # Translators:
 # Reham Ahmad <riham_roushdy@hotmail.com>, 2016
 # FX Bénard <fxb@wp-translations.org>, 2019
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gravityflowfolders\n"
 "Report-Msgid-Bugs-To: https://www.gravityflow.io\n"
-"POT-Creation-Date: 2019-03-02 17:33:00+00:00\n"
+"POT-Creation-Date: 2020-02-15 12:09:04+00:00\n"
 "PO-Revision-Date: 2016-12-04 16:17+0000\n"
 "Last-Translator: FX Bénard <fxb@wp-translations.org>, 2019\n"
 "Language-Team: Arabic (https://www.transifex.com/gravityflow/teams/50678/ar/)\n"
@@ -93,13 +93,13 @@ msgstr "جميع المستخدمين"
 msgid "Select Users"
 msgstr "حدد المستخدمين"
 
-#: class-folders.php:259
+#: class-folders.php:260
 msgid "Configuration"
 msgstr "الاعدادات"
 
-#: class-folders.php:263 class-folders.php:346 class-folders.php:377
-#: class-folders.php:379 class-folders.php:423 class-folders.php:531
-#: class-folders.php:879 includes/class-folders-detail.php:43
+#: class-folders.php:264 class-folders.php:393 class-folders.php:424
+#: class-folders.php:426 class-folders.php:470 class-folders.php:588
+#: class-folders.php:936 includes/class-folders-detail.php:43
 #: includes/class-step-folders-add.php:66
 #: includes/class-step-folders-add.php:76
 #: includes/class-step-folders-remove.php:65
@@ -107,36 +107,36 @@ msgstr "الاعدادات"
 msgid "Folders"
 msgstr "المجلدات"
 
-#: class-folders.php:751 includes/class-folders-detail.php:39
+#: class-folders.php:808 includes/class-folders-detail.php:39
 #: includes/class-folders-list.php:21
 msgid "Users"
 msgstr "المستخدمون"
 
-#: class-folders.php:755
+#: class-folders.php:812
 msgid "Roles"
 msgstr "الرتب"
 
-#: class-folders.php:797
+#: class-folders.php:854
 msgid "Add to folder: %s"
 msgstr "إضافة إلى المجلد: %s"
 
-#: class-folders.php:833
+#: class-folders.php:890
 msgid "Entries assigned to folder: %s."
 msgstr "الإدخالات المعينة إلى المجلد:%s."
 
-#: class-folders.php:882
+#: class-folders.php:939
 msgid "Add to folder"
 msgstr "إضافة إلى المجلد"
 
-#: class-folders.php:886
+#: class-folders.php:943
 msgid "Remove from folder"
 msgstr "الإزالة من المجلد"
 
-#: class-folders.php:915
+#: class-folders.php:972
 msgid "Entry added to folder: %s"
 msgstr "تمت إضافة الإدخال إلى المجلد: %s"
 
-#: class-folders.php:919
+#: class-folders.php:976
 msgid "Entry removed from folder: %s"
 msgstr "تمت إزالة الإدخال من المجلد:%s"
 
@@ -148,11 +148,11 @@ msgstr "الطريقة \"%s\" لم تنفذ. يجب تجاوزها في الفئ
 msgid "You don't have permission to view this folder"
 msgstr "ليس لديك إذن لعرض هذا المجلد"
 
-#: includes/class-folders-page.php:37
+#: includes/class-folders-page.php:49
 msgid "Folder not found."
 msgstr "المجلد غير موجود."
 
-#: includes/class-folders-page.php:45
+#: includes/class-folders-page.php:57
 msgid "You don't have any folders configured."
 msgstr "ليس لديك أي مجلدات معدة."
 
@@ -165,7 +165,7 @@ msgstr "أضف إلى المجلد"
 msgid "You don't have any folders set up."
 msgstr "لم يتم إعداد أية مجلدات."
 
-#: includes/class-step-folders-add.php:115
+#: includes/class-step-folders-add.php:135
 msgid "Added to folder: %s"
 msgstr "تمت الإضافة إلى المجلد:%s"
 
@@ -173,7 +173,7 @@ msgstr "تمت الإضافة إلى المجلد:%s"
 msgid "Remove from Folder"
 msgstr "الإزالة من المجلد"
 
-#: includes/class-step-folders-remove.php:116
+#: includes/class-step-folders-remove.php:136
 msgid "Removed from folder: %s"
 msgstr "الإزالة من المجلد: %s"
 

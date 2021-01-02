@@ -43,6 +43,9 @@ The Gravity Flow Folders Extension will work with any license of [Gravity Flow](
 
 == ChangeLog ==
 
+= 1.5 =
+- Fixed an issue with the RTL Languages not displaying folders correctly in Workflow Folder Settings.
+
 = 1.4 =
 - Added security enhancements.
 - Added filter gravityflowfolders_folder_match_add_step to allow control of whether entry should be added to a folder

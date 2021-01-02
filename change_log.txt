@@ -1,1 +1,0 @@
-- Fix an issue with the RTL Languages not displaying folders correctly in Workflow Folder Settings. 

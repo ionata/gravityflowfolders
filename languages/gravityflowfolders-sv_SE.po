@@ -1,4 +1,4 @@
-# Copyright 2015-2019 Steven Henty.
+# Copyright 2015-2020 Steven Henty.
 # Translators:
 # FX Bénard <fxb@wp-translations.org>, 2017
 # Tor-Bjorn Fjellner, 2017
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gravityflowfolders\n"
 "Report-Msgid-Bugs-To: https://www.gravityflow.io\n"
-"POT-Creation-Date: 2019-03-02 17:33:00+00:00\n"
+"POT-Creation-Date: 2020-02-15 12:09:04+00:00\n"
 "PO-Revision-Date: 2016-12-04 16:17+0000\n"
 "Last-Translator: Tor-Bjorn Fjellner, 2017\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/gravityflow/teams/50678/sv_SE/)\n"
@@ -93,13 +93,13 @@ msgstr "Alla användare"
 msgid "Select Users"
 msgstr "Välj användare"
 
-#: class-folders.php:259
+#: class-folders.php:260
 msgid "Configuration"
 msgstr "Konfiguration"
 
-#: class-folders.php:263 class-folders.php:346 class-folders.php:377
-#: class-folders.php:379 class-folders.php:423 class-folders.php:531
-#: class-folders.php:879 includes/class-folders-detail.php:43
+#: class-folders.php:264 class-folders.php:393 class-folders.php:424
+#: class-folders.php:426 class-folders.php:470 class-folders.php:588
+#: class-folders.php:936 includes/class-folders-detail.php:43
 #: includes/class-step-folders-add.php:66
 #: includes/class-step-folders-add.php:76
 #: includes/class-step-folders-remove.php:65
@@ -107,36 +107,36 @@ msgstr "Konfiguration"
 msgid "Folders"
 msgstr "Mappar"
 
-#: class-folders.php:751 includes/class-folders-detail.php:39
+#: class-folders.php:808 includes/class-folders-detail.php:39
 #: includes/class-folders-list.php:21
 msgid "Users"
 msgstr "Användare"
 
-#: class-folders.php:755
+#: class-folders.php:812
 msgid "Roles"
 msgstr "Roller"
 
-#: class-folders.php:797
+#: class-folders.php:854
 msgid "Add to folder: %s"
 msgstr "Lägg till i mapp: %s"
 
-#: class-folders.php:833
+#: class-folders.php:890
 msgid "Entries assigned to folder: %s."
 msgstr "Poster som lagts i denna mapp: %s."
 
-#: class-folders.php:882
+#: class-folders.php:939
 msgid "Add to folder"
 msgstr "Lägg till i mapp"
 
-#: class-folders.php:886
+#: class-folders.php:943
 msgid "Remove from folder"
 msgstr "Ta bort ur mapp"
 
-#: class-folders.php:915
+#: class-folders.php:972
 msgid "Entry added to folder: %s"
 msgstr "Ärendet har lagts till i mappen: %s"
 
-#: class-folders.php:919
+#: class-folders.php:976
 msgid "Entry removed from folder: %s"
 msgstr "Ärendet har tagits bort ur mappen: %s"
 
@@ -150,11 +150,11 @@ msgstr ""
 msgid "You don't have permission to view this folder"
 msgstr "Du saknar behörighet att se denna mapp"
 
-#: includes/class-folders-page.php:37
+#: includes/class-folders-page.php:49
 msgid "Folder not found."
 msgstr "Mappen hittades inte"
 
-#: includes/class-folders-page.php:45
+#: includes/class-folders-page.php:57
 msgid "You don't have any folders configured."
 msgstr "Du har inga mappar konfigurerade"
 
@@ -167,7 +167,7 @@ msgstr "Lägg till i mapp"
 msgid "You don't have any folders set up."
 msgstr "Du har inte skapat några mappar."
 
-#: includes/class-step-folders-add.php:115
+#: includes/class-step-folders-add.php:135
 msgid "Added to folder: %s"
 msgstr "Tillagt i mapp: %s"
 
@@ -175,7 +175,7 @@ msgstr "Tillagt i mapp: %s"
 msgid "Remove from Folder"
 msgstr "Ta bort ur mapp"
 
-#: includes/class-step-folders-remove.php:116
+#: includes/class-step-folders-remove.php:136
 msgid "Removed from folder: %s"
 msgstr "Borttaget ur mapp: %s"
 
